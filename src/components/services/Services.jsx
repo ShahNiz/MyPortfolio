@@ -18,7 +18,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <HiOutlineClipboardList className="services__icon" />
-                    <h3 className="services__title">Web + App<br />Developer</h3>
+                    <h3 className="services__title">Web <br />Developer</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(1)}>
                     View More

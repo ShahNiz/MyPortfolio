@@ -37,7 +37,7 @@ const Qualification = () => {
                             <span className="qualification__subtitle">The Art Institute</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2016-2018
+                                2019-2024
                             </div>
                         </div>
                         <div>
@@ -53,10 +53,10 @@ const Qualification = () => {
                         </div>
                         <div>
                             <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Full Sail University</span>
+                            <span className="qualification__subtitle"></span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2018-2021
+                                2020-2025
                             </div>
                         </div>
                     </div>

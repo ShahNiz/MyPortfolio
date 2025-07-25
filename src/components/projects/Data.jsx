@@ -1,27 +1,24 @@
-import Project1 from "../../assets/project1.webp";
-import Project2 from "../../assets/project2.webp";
-import Project3 from "../../assets/project3.webp";
+import HostelValley from "../../assets/Hostelva.png";
+import Tasker from '../../../src/assets/TaskMate.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        image: Project1,
-        title: "Project 1",
+        image: HostelValley,
+        title: "Hostel Valley Pakistan",
+        description: "Hostel Valley Pakistan connects users with verified, affordable hostels nationwide, offering secure bookings, easy search, and management tools for students and hostel owners.",
+        link:"https://hostelvalley.com/",
         category: "A",
     },
     {
         id: 2,
-        image: Project2,
-        title: "Project 2",
+        image: Tasker,
+        title: "TaskMate",
+        description: "Taskmate helps manage tasks with reminders, priorities, progress tracking, and a clean, user-friendly interface.",
+        link:"https://task-mates-eight.vercel.app",
         category: "B",
-    },
-    {
-        id: 3,
-        image: Project3,
-        title: "Project 3",
-        category: "C",
-    },
+    }, 
 ];
 
 export const projectsNav = [
