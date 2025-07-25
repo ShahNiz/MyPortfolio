@@ -30,6 +30,8 @@
 .nav__link {
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom:8px;
     align-items: center;
     font-size: 20px;
     color: var(--title-color);
