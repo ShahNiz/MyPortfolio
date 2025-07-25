@@ -36,6 +36,7 @@
     border-radius: 1rem;
     width: 30%;
     text-wrap: wrap;
+    position: relative;
 }
 
 .project__img {
@@ -125,6 +126,8 @@ a{
         flex-direction: column;
     }
     .project__card{
+        right: 25px;
+
         width: 100%;
     }
 }
@@ -139,6 +142,7 @@ a{
     }
     .project__card{
         width: 100%;
+        right: 20px;
     }
 
     .project__filters {
