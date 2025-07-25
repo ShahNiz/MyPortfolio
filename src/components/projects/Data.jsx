@@ -1,5 +1,5 @@
-import HostelValley from "../../assets/Hostelva.png";
-import Tasker from '../../../src/assets/TaskMate.png'
+import HostelValley from "../../assets/Hostelv.jpeg";
+import Tasker from '../../../src/assets/TaskMat.jpeg'
 
 
 export const projectsData = [

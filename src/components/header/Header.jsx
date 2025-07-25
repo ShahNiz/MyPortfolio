@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './header.css';
 import { HiOutlineHome, HiOutlineUser, HiOutlineBadgeCheck, HiOutlineClipboardList, HiOutlinePhotograph, HiOutlineMail, HiX, HiOutlineMenu } from "react-icons/hi";
-import logo from '../../assets/Logo (2).png'
+import logo from '../../assets/logo.jpeg'
 
 const Header = () => {
     window.addEventListener("scroll", function () {
@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo"><img width={300} src={logo} alt="" /></a>
+                <a href="index.html" className="nav__logo"><img width={200} src={logo} alt="" /></a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav__item">

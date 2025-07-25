@@ -27,6 +27,7 @@
     justify-content: center;
     /* grid-template-columns: repeat(2, max-content); */
     gap: 1rem;
+    position: relative;
 }
 
 .project__card {
@@ -107,6 +108,7 @@ a{
    
     .project__container{
         display: flex;
+        right: 30px;
     }
     .project__card{
         width: 100%;
@@ -124,9 +126,11 @@ a{
     .project__container{
         display: flex;
         flex-direction: column;
+        right: 40px;
+
     }
     .project__card{
-        right: 25px;
+        right: 1px;
 
         width: 100%;
     }
@@ -139,10 +143,11 @@ a{
     .project__container{
         display: flex;
         flex-direction: column;
+        right: 25px;
     }
     .project__card{
         width: 100%;
-        right: 20px;
+        right: px;
     }
 
     .project__filters {
